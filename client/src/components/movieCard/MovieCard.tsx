@@ -1,5 +1,5 @@
-import style from "./movieCard.module.css";
 import type { movieType } from "../../types/movie";
+import style from "./movieCard.module.css";
 
 type movieCardProps = { movie: movieType };
 

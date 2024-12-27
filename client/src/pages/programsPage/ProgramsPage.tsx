@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MovieCard from "../../components/movieCard/MovieCard";
-import style from "./programsPage.module.css";
 import type { movieType } from "../../types/movie";
+import style from "./programsPage.module.css";
 
 export default function Programs() {
   const [movies, setMovies] = useState<movieType[]>([]); // État pour stocker les films
